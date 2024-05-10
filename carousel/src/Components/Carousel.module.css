@@ -1,0 +1,56 @@
+.carousel__container{
+    position: relative;
+}
+
+.carousel__btn{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    border-radius: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.carousel__btn_left{
+    left:5%;
+}
+
+.carousel__btn_right{
+    right: 5%;
+}
+
+.carousel__box {
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel__pagination_container {
+    position: absolute;
+    display: flex;
+    overflow-x: hidden;
+    left: 20%;
+    bottom: 3%;
+    height: 30px;
+    /* width: calc(5*19px); */
+}
+
+.pagination__dot{
+    flex-shrink: 0;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.pagination__dot_active {
+    background-color: steelblue;
+}
