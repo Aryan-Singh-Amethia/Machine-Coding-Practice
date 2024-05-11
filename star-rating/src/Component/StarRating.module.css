@@ -1,0 +1,12 @@
+.star{
+  cursor: pointer;
+  font-size: xx-large;
+}
+
+.on{
+    color: gold;
+}
+
+.off{
+    color: #ccc;
+}
