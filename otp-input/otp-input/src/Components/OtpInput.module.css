@@ -1,0 +1,12 @@
+.otp__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otpInput {
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   margin: 0 5px;
+}
