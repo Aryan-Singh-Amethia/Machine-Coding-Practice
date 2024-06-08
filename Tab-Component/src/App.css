@@ -1,0 +1,12 @@
+.tabs__container {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.tabs{
+    height: 35px;
+    width: max-content;
+    margin: 0 10px;
+    cursor: pointer;
+}
