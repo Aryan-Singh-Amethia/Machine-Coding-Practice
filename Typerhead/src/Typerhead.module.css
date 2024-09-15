@@ -1,0 +1,39 @@
+.container{
+  margin-top: 10em;
+  display: flex;
+}
+
+.input {
+    width: 45em;
+    height: 2em;
+    font-size: 2em;
+    padding: 0.5em;
+    border: 2px solid black;
+
+}
+
+.image {
+    border: 2px solid black;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.suggestion__item{
+    width: 45em;
+    font-size: 2em;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.suggestion__item:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.loading {
+    font-size: 2em;
+    padding: 0.5em;
+    border: 1px solid black;
+    width: 45em;
+}
